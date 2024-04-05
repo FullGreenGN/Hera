@@ -73,3 +73,27 @@
 [[32minfo[39m] - 05-04-2024 02:04:04 PM: Database connected
 [[32minfo[39m] - 05-04-2024 02:04:26 PM: Database connected
 [[32minfo[39m] - 05-04-2024 02:05:33 PM: GET / 200 6374 - 22.092 ms
+[[32minfo[39m] - 05-04-2024 02:09:23 PM: GET /admin/pages/edit 200 29009 - 18.437 ms
+[[32minfo[39m] - 05-04-2024 02:09:24 PM: DELETE /api/v1/pages/delete/7 200 26 - 24.295 ms
+[[32minfo[39m] - 05-04-2024 02:09:26 PM: GET /admin/pages/edit 200 27101 - 23.453 ms
+[[32minfo[39m] - 05-04-2024 02:09:27 PM: DELETE /api/v1/pages/delete/8 200 26 - 22.653 ms
+[[32minfo[39m] - 05-04-2024 02:09:29 PM: GET /admin/pages/edit 200 25411 - 10.511 ms
+[[32minfo[39m] - 05-04-2024 02:10:02 PM: GET /admin/pages/edit 200 23265 - 10.340 ms
+[[32minfo[39m] - 05-04-2024 02:10:11 PM: GET / 200 4273 - 5.041 ms
+[[32minfo[39m] - 05-04-2024 02:10:24 PM: GET /admin/pages/edit 200 23270 - 12.200 ms
+[[32minfo[39m] - 05-04-2024 02:10:25 PM: GET /admin 200 22991 - 106.791 ms
+[[32minfo[39m] - 05-04-2024 02:10:50 PM: GET /admin 200 23008 - 9.919 ms
+[[32minfo[39m] - 05-04-2024 02:11:25 PM: GET /admin 200 23008 - 7.463 ms
+[[32minfo[39m] - 05-04-2024 02:11:55 PM: GET / 200 4273 - 4.926 ms
+[[32minfo[39m] - 05-04-2024 02:11:55 PM: GET /favicon.ico 404 150 - 1.116 ms
+[[32minfo[39m] - 05-04-2024 02:11:57 PM: GET /admin 200 23008 - 8.449 ms
+[[32minfo[39m] - 05-04-2024 02:12:59 PM: GET /admin 304 - - 9.997 ms
+[[32minfo[39m] - 05-04-2024 02:13:30 PM: GET /admin 200 23042 - 8.937 ms
+[[32minfo[39m] - 05-04-2024 02:13:35 PM: GET /admin 200 23042 - 11.626 ms
+[[32minfo[39m] - 05-04-2024 02:13:50 PM: GET /admin 200 23016 - 10.939 ms
+[[32minfo[39m] - 05-04-2024 02:13:51 PM: GET /admin 304 - - 10.667 ms
+[[32minfo[39m] - 05-04-2024 02:13:51 PM: GET /admin 304 - - 10.263 ms
+[[32minfo[39m] - 05-04-2024 02:14:12 PM: GET /admin 200 22999 - 8.663 ms
+[[32minfo[39m] - 05-04-2024 02:14:37 PM: GET / 304 - - 3.782 ms
+[[32minfo[39m] - 05-04-2024 02:15:21 PM: Database connected
+[[32minfo[39m] - 05-04-2024 02:15:22 PM: GET /admin 200 22993 - 21.207 ms

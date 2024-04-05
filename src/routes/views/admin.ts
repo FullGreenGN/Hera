@@ -1,5 +1,6 @@
 import { getPages, getPagesEnabled, getPagesNumber } from '../../services/pages.service'
 import { Router } from 'express'
+import variables from '../../config'
 
 const router = Router()
 
@@ -16,7 +17,7 @@ router.get('/', async (req: any, res: any) => {
     })
 
     res.render('pages/admin/index', {
-        title: 'Admin Page',
+        title: variables.APP_NAME,
         message: "",
         messageType: "success",
         pagesAvailable: pages,
