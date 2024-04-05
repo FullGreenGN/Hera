@@ -40,7 +40,7 @@
                 ██▓ █  This project was created to help schools or anybody █ ▓██
                 ██▓ █  who want to create a kiosk with tabs and images     █ ▓██
                 ██▓ █  a full working admin panel include users management █ ▓██
-                ██▓ █  images upload, tabs creation.                       █ ▓██
+                ██▓ █  images upload with text, tabs creation.             █ ▓██
                 ██▓ █  Full responsive and light or dark mode              █ ▓██
                 ██▓ █                                                      █ ▓██
                 ██▓ █  If you need a special version of Hera contact me    █ ▓██
