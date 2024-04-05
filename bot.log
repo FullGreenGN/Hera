@@ -1,0 +1,56 @@
+03-04-2024 10:18:57 AM - info: Default settings created
+[info] 03-04-2024 10:21:16 AM: Database connected
+[[32minfo[39m] 03-04-2024 10:22:07 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:22:18 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:22:36 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:23:59 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:24:04 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:24:36 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:25:13 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:25:16 AM: POST /api/v1/page/new 200 52 - 31.009 ms
+[[32minfo[39m] - 03-04-2024 10:25:19 AM: GET /admin 200 23484 - 25.719 ms
+[[32minfo[39m] - 03-04-2024 10:26:14 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:26:19 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:26:27 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:26:31 AM: Database connected
+[[32minfo[39m] - 03-04-2024 10:26:33 AM: GET /admin 304 - - 8.545 ms
+[[32minfo[39m] - 03-04-2024 10:27:03 AM: Database connected
+[[32minfo[39m] - 03-04-2024 07:09:40 PM: Database connected
+[[32minfo[39m] - 03-04-2024 07:13:09 PM: GET /admin 200 23484 - 41.052 ms
+[[32minfo[39m] - 03-04-2024 07:19:41 PM: Database connected
+[[32minfo[39m] - 03-04-2024 07:19:45 PM: Database connected
+[[32minfo[39m] - 03-04-2024 07:19:45 PM: GET / 200 6320 - 11.166 ms
+[[32minfo[39m] - 03-04-2024 07:19:50 PM: GET /favicon.ico 404 150 - 2.242 ms
+[[32minfo[39m] - 03-04-2024 07:20:27 PM: Database connected
+[[32minfo[39m] - 03-04-2024 07:21:32 PM: Database connected
+[[32minfo[39m] - 03-04-2024 07:21:56 PM: Database connected
+[[32minfo[39m] - 03-04-2024 07:25:34 PM: Database connected
+[[32minfo[39m] - 04-04-2024 02:42:28 PM: Database connected
+[[32minfo[39m] - 04-04-2024 02:49:29 PM: Database connected
+[[32minfo[39m] - 04-04-2024 02:50:22 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:08:38 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:14:23 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:16:05 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:16:44 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:16:48 PM: GET /admin 200 23485 - 66.199 ms
+[[32minfo[39m] - 04-04-2024 03:17:52 PM: GET / 200 6320 - 12.151 ms
+[[32minfo[39m] - 04-04-2024 03:18:31 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:23:39 PM: GET / 200 6320 - 18.738 ms
+[[32minfo[39m] - 04-04-2024 03:23:42 PM: GET /admin 200 23534 - 16.013 ms
+[[32minfo[39m] - 04-04-2024 03:23:43 PM: GET /favicon.ico 404 150 - 1.476 ms
+[[32minfo[39m] - 04-04-2024 03:31:21 PM: GET / 200 6320 - 4.348 ms
+[[32minfo[39m] - 04-04-2024 03:31:42 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:32:33 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:35:11 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:38:53 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:39:11 PM: GET /auth 404 143 - 4.432 ms
+[[32minfo[39m] - 04-04-2024 03:39:12 PM: GET /auth/login 200 3574 - 12.423 ms
+[[32minfo[39m] - 04-04-2024 03:40:22 PM: GET /auth/login 500 3120 - 106.005 ms
+[[32minfo[39m] - 04-04-2024 03:40:39 PM: GET /auth/login 200 9564 - 25.119 ms
+[[32minfo[39m] - 04-04-2024 03:41:05 PM: GET /auth/login 200 9561 - 3.692 ms
+[[32minfo[39m] - 04-04-2024 03:41:14 PM: GET /auth/login 200 9558 - 2.801 ms
+[[32minfo[39m] - 04-04-2024 03:42:56 PM: GET /auth/login 200 9589 - 1.633 ms
+[[32minfo[39m] - 04-04-2024 03:43:23 PM: Database connected
+[[32minfo[39m] - 04-04-2024 03:43:31 PM: Login attempt
+[[32minfo[39m] - 04-04-2024 03:43:31 PM: POST /api/v1/auth/login 401 31 - 27.684 ms
+[[32minfo[39m] - 04-04-2024 03:44:07 PM: Database connected

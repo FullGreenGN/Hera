@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body>
+<!-- Slider -->
+<div data-hs-carousel='{ "loadingClasses": "opacity-0", "isAutoPlay": true, "speed": <%= slideTime %>, "pauseOnHover": false, "wrapAround": true, "isNav": false, "isPagination": true, "isFade": true, "animationDuration": 700 }' class="relative">
+    <div class="hs-carousel relative overflow-hidden w-screen h-screen bg-gray-950">
+        <div class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
+            <% if (posts.length > 0) { %>
+                <% posts.forEach(post => { %>
+                    <div class="hs-carousel-slide">
+                        <div class="flex justify-center h-screen w-screen">
+                            <figure class="relative max-w transition-all duration-300 cursor-pointer">
+                                <img class="h-auto w-auto self-center transition duration-700" src="/uploads/<%= post.image %>" alt="image description">
+                                <figcaption class="absolute px-4 text-lg text-white bottom-6">
+                                    <h1 class="text-2xl font-bold"><%= post.title%></h1>
+                                    <p class="text-sm"><%= post.description %></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                <% }); %>
+            <% } else { %>
+            <% } %>
+                <div class="hs-carousel-slide">
+                    <div class="flex justify-center h-screen w-screen">
+                        <figure class="relative transition-all duration-300 cursor-pointer h-screen w-screen">
+                            <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+                                <table class="w-screen text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                    <caption class="p-5 text-5xl font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-800">
+                                        Absences Professeurs
+                                        <p class="mt-1 text-2xl font-normal text-gray-500 dark:text-gray-400">
+                                            Liste des absences des professeurs
+                                        </p>
+                                    </caption>
+                                    <thead class="text-xl text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-3">
+                                            Nom
+                                        </th>
+                                        <th scope="col" class="px-6 py-3">
+                                            Raison
+                                        </th>
+                                        <th scope="col" class="px-6 py-3">
+                                            Du
+                                        </th>
+                                        <th scope="col" class="px-6 py-3">
+                                            Au
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                            Apple MacBook Pro 17"
+                                        </th>
+                                        <td class="px-6 py-4">
+                                            Silver
+                                        </td>
+                                        <td class="px-6 py-4">
+                                            Laptop
+                                        </td>
+                                        <td class="px-6 py-4">
+                                            $2999
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
+        <% posts.forEach(image => {%>
+            <span class="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer"></span>
+        <% }) %>
+            <span class="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer"></span>
+    </div>
+</div>
+<!-- End Slider -->
+</body>
+</html>

@@ -1,0 +1,123 @@
+<script src="/socket.io/socket.io.js"></script>
+
+<script>
+    const socket = io()
+
+    socket.on('message', function(msg) {
+
+        if (msg.type == "success") {
+            successAlertMessage.classList.remove('hidden')
+            modalsvgdiv.classList.add('bg-green-100')
+            modalsvgdiv.classList.add('dark:bg-green-900')
+            modalsvgdiv.classList.remove('bg-red-100')
+            modalsvgdiv.classList.remove('dark:bg-red-900')
+            modalsvg.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>'
+        } else if (msg.type == "error") {
+            successAlertMessage.classList.remove('hidden')
+            successAlertText.textContent = "<%= message %>"
+            modalsvgdiv.classList.add('bg-red-100')
+            modalsvgdiv.classList.remove('dark:bg-red-900')
+            modalsvgdiv.classList.remove('bg-green-100')
+            modalsvgdiv.classList.remove('dark:bg-green-900')
+            modalsvg.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>'
+
+        }
+
+    });
+</script>
+
+<script>
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon')
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon')
+    const themeToggleText = document.getElementById('theme-toggle-text')
+
+    // Change the icons inside the button based on previous settings
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        themeToggleLightIcon.style.display = 'none';
+        themeToggleDarkIcon.style.display = 'block';
+        themeToggleText.textContent = 'Dark Mode';
+        document.documentElement.classList.add('dark');
+    } else {
+        themeToggleLightIcon.style.display = 'block';
+        themeToggleDarkIcon.style.display = 'none';
+        themeToggleText.textContent = 'Light Mode';
+        document.documentElement.classList.remove('dark');
+    }
+
+    const themeToggleBtn = document.getElementById('theme-toggle')
+
+    themeToggleBtn.addEventListener('click', function() {
+        console.log('clicked');
+
+        // if set via local storage previously
+        if (localStorage.getItem('color-theme')) {
+            if (localStorage.getItem('color-theme') === 'light') {
+                themeToggleLightIcon.style.display = 'none';
+                themeToggleDarkIcon.style.display = 'block';
+                themeToggleText.textContent = 'Dark Mode';
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+                themeToggleLightIcon.style.display = 'block';
+                themeToggleDarkIcon.style.display = 'none';
+                themeToggleText.textContent = 'Light Mode';
+                localStorage.setItem('color-theme', 'light');
+            }
+        } else {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('color-theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
+            }
+        }
+    });
+
+    const modalId = document.getElementById('crud-modal');
+    const showModalButton = document.getElementById('crud-modal-button');
+    const hideModalButton = document.getElementById('crud-modal-close');
+
+    showModalButton.addEventListener('click', function() {
+        modalId.classList.remove('hidden')
+    });
+
+    hideModalButton.addEventListener('click', function() {
+        modalId.classList.add('hidden')
+    });
+
+    const successAlertMessage = document.getElementById('successModal');
+    const successAlertButton = document.getElementById('successButton');
+    const successAlertText = document.getElementById('successModalText');
+    const modalsvg = document.getElementById('modalsvg');
+    const modalsvgdiv = document.getElementById('modalsvgdiv');
+
+    successAlertButton.addEventListener('click', function() {
+        successAlertMessage.classList.add('hidden')
+    });
+
+    console.log("<%= messageType %>")
+
+
+    <% if (message !== "") { %>
+        if ("<%= messageType %>" === "success") {
+            successAlertMessage.classList.remove('hidden')
+            modalsvgdiv.classList.add('bg-green-100')
+            modalsvgdiv.classList.add('dark:bg-green-900')
+            modalsvgdiv.classList.remove('bg-red-100')
+            modalsvgdiv.classList.remove('dark:bg-red-900')
+            modalsvg.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>'
+        } else {
+            successAlertMessage.classList.remove('hidden')
+            successAlertText.textContent = "<%= message %>"
+            modalsvgdiv.classList.add('bg-red-100')
+            modalsvgdiv.classList.remove('dark:bg-red-900')
+            modalsvgdiv.classList.remove('bg-green-100')
+            modalsvgdiv.classList.remove('dark:bg-green-900')
+            modalsvg.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>'
+        }
+    <% }%>
+
+
+</script>
