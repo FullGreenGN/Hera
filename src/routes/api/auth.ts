@@ -29,6 +29,7 @@ router.post('/login', async (req: Request, res: Response) => {
         const passwordMatch = await compare(password, user.password);
 
         if (!passwordMatch) {
+            socketBroadcast('Invalid Credentials', 'error')
             // @ts-ignore
             return res.status(401).json({ error: 'Invalid credentials' });
         }
