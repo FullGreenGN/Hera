@@ -24,8 +24,8 @@ model Post {
   title     String
   content   String?
   image     String?
-  category  String?
   published Boolean @default(false)
+  color     String?
 }
 
 model Absent {

@@ -2029,8 +2029,8 @@ export namespace Prisma {
     title: string | null
     content: string | null
     image: string | null
-    category: string | null
     published: boolean | null
+    color: string | null
   }
 
   export type PostMaxAggregateOutputType = {
@@ -2038,8 +2038,8 @@ export namespace Prisma {
     title: string | null
     content: string | null
     image: string | null
-    category: string | null
     published: boolean | null
+    color: string | null
   }
 
   export type PostCountAggregateOutputType = {
@@ -2047,8 +2047,8 @@ export namespace Prisma {
     title: number
     content: number
     image: number
-    category: number
     published: number
+    color: number
     _all: number
   }
 
@@ -2066,8 +2066,8 @@ export namespace Prisma {
     title?: true
     content?: true
     image?: true
-    category?: true
     published?: true
+    color?: true
   }
 
   export type PostMaxAggregateInputType = {
@@ -2075,8 +2075,8 @@ export namespace Prisma {
     title?: true
     content?: true
     image?: true
-    category?: true
     published?: true
+    color?: true
   }
 
   export type PostCountAggregateInputType = {
@@ -2084,8 +2084,8 @@ export namespace Prisma {
     title?: true
     content?: true
     image?: true
-    category?: true
     published?: true
+    color?: true
     _all?: true
   }
 
@@ -2180,8 +2180,8 @@ export namespace Prisma {
     title: string
     content: string | null
     image: string | null
-    category: string | null
     published: boolean
+    color: string | null
     _count: PostCountAggregateOutputType | null
     _avg: PostAvgAggregateOutputType | null
     _sum: PostSumAggregateOutputType | null
@@ -2208,8 +2208,8 @@ export namespace Prisma {
     title?: boolean
     content?: boolean
     image?: boolean
-    category?: boolean
     published?: boolean
+    color?: boolean
   }, ExtArgs["result"]["post"]>
 
   export type PostSelectScalar = {
@@ -2217,8 +2217,8 @@ export namespace Prisma {
     title?: boolean
     content?: boolean
     image?: boolean
-    category?: boolean
     published?: boolean
+    color?: boolean
   }
 
 
@@ -2230,8 +2230,8 @@ export namespace Prisma {
       title: string
       content: string | null
       image: string | null
-      category: string | null
       published: boolean
+      color: string | null
     }, ExtArgs["result"]["post"]>
     composites: {}
   }
@@ -2630,8 +2630,8 @@ export namespace Prisma {
     readonly title: FieldRef<"Post", 'String'>
     readonly content: FieldRef<"Post", 'String'>
     readonly image: FieldRef<"Post", 'String'>
-    readonly category: FieldRef<"Post", 'String'>
     readonly published: FieldRef<"Post", 'Boolean'>
+    readonly color: FieldRef<"Post", 'String'>
   }
     
 
@@ -4743,8 +4743,8 @@ export namespace Prisma {
     title: 'title',
     content: 'content',
     image: 'image',
-    category: 'category',
-    published: 'published'
+    published: 'published',
+    color: 'color'
   };
 
   export type PostScalarFieldEnum = (typeof PostScalarFieldEnum)[keyof typeof PostScalarFieldEnum]
@@ -4887,8 +4887,8 @@ export namespace Prisma {
     title?: StringFilter<"Post"> | string
     content?: StringNullableFilter<"Post"> | string | null
     image?: StringNullableFilter<"Post"> | string | null
-    category?: StringNullableFilter<"Post"> | string | null
     published?: BoolFilter<"Post"> | boolean
+    color?: StringNullableFilter<"Post"> | string | null
   }
 
   export type PostOrderByWithRelationInput = {
@@ -4896,8 +4896,8 @@ export namespace Prisma {
     title?: SortOrder
     content?: SortOrderInput | SortOrder
     image?: SortOrderInput | SortOrder
-    category?: SortOrderInput | SortOrder
     published?: SortOrder
+    color?: SortOrderInput | SortOrder
   }
 
   export type PostWhereUniqueInput = Prisma.AtLeast<{
@@ -4908,8 +4908,8 @@ export namespace Prisma {
     title?: StringFilter<"Post"> | string
     content?: StringNullableFilter<"Post"> | string | null
     image?: StringNullableFilter<"Post"> | string | null
-    category?: StringNullableFilter<"Post"> | string | null
     published?: BoolFilter<"Post"> | boolean
+    color?: StringNullableFilter<"Post"> | string | null
   }, "id">
 
   export type PostOrderByWithAggregationInput = {
@@ -4917,8 +4917,8 @@ export namespace Prisma {
     title?: SortOrder
     content?: SortOrderInput | SortOrder
     image?: SortOrderInput | SortOrder
-    category?: SortOrderInput | SortOrder
     published?: SortOrder
+    color?: SortOrderInput | SortOrder
     _count?: PostCountOrderByAggregateInput
     _avg?: PostAvgOrderByAggregateInput
     _max?: PostMaxOrderByAggregateInput
@@ -4934,8 +4934,8 @@ export namespace Prisma {
     title?: StringWithAggregatesFilter<"Post"> | string
     content?: StringNullableWithAggregatesFilter<"Post"> | string | null
     image?: StringNullableWithAggregatesFilter<"Post"> | string | null
-    category?: StringNullableWithAggregatesFilter<"Post"> | string | null
     published?: BoolWithAggregatesFilter<"Post"> | boolean
+    color?: StringNullableWithAggregatesFilter<"Post"> | string | null
   }
 
   export type AbsentWhereInput = {
@@ -5091,8 +5091,8 @@ export namespace Prisma {
     title: string
     content?: string | null
     image?: string | null
-    category?: string | null
     published?: boolean
+    color?: string | null
   }
 
   export type PostUncheckedCreateInput = {
@@ -5100,16 +5100,16 @@ export namespace Prisma {
     title: string
     content?: string | null
     image?: string | null
-    category?: string | null
     published?: boolean
+    color?: string | null
   }
 
   export type PostUpdateInput = {
     title?: StringFieldUpdateOperationsInput | string
     content?: NullableStringFieldUpdateOperationsInput | string | null
     image?: NullableStringFieldUpdateOperationsInput | string | null
-    category?: NullableStringFieldUpdateOperationsInput | string | null
     published?: BoolFieldUpdateOperationsInput | boolean
+    color?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type PostUncheckedUpdateInput = {
@@ -5117,8 +5117,8 @@ export namespace Prisma {
     title?: StringFieldUpdateOperationsInput | string
     content?: NullableStringFieldUpdateOperationsInput | string | null
     image?: NullableStringFieldUpdateOperationsInput | string | null
-    category?: NullableStringFieldUpdateOperationsInput | string | null
     published?: BoolFieldUpdateOperationsInput | boolean
+    color?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type PostCreateManyInput = {
@@ -5126,16 +5126,16 @@ export namespace Prisma {
     title: string
     content?: string | null
     image?: string | null
-    category?: string | null
     published?: boolean
+    color?: string | null
   }
 
   export type PostUpdateManyMutationInput = {
     title?: StringFieldUpdateOperationsInput | string
     content?: NullableStringFieldUpdateOperationsInput | string | null
     image?: NullableStringFieldUpdateOperationsInput | string | null
-    category?: NullableStringFieldUpdateOperationsInput | string | null
     published?: BoolFieldUpdateOperationsInput | boolean
+    color?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type PostUncheckedUpdateManyInput = {
@@ -5143,8 +5143,8 @@ export namespace Prisma {
     title?: StringFieldUpdateOperationsInput | string
     content?: NullableStringFieldUpdateOperationsInput | string | null
     image?: NullableStringFieldUpdateOperationsInput | string | null
-    category?: NullableStringFieldUpdateOperationsInput | string | null
     published?: BoolFieldUpdateOperationsInput | boolean
+    color?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type AbsentCreateInput = {
@@ -5379,8 +5379,8 @@ export namespace Prisma {
     title?: SortOrder
     content?: SortOrder
     image?: SortOrder
-    category?: SortOrder
     published?: SortOrder
+    color?: SortOrder
   }
 
   export type PostAvgOrderByAggregateInput = {
@@ -5392,8 +5392,8 @@ export namespace Prisma {
     title?: SortOrder
     content?: SortOrder
     image?: SortOrder
-    category?: SortOrder
     published?: SortOrder
+    color?: SortOrder
   }
 
   export type PostMinOrderByAggregateInput = {
@@ -5401,8 +5401,8 @@ export namespace Prisma {
     title?: SortOrder
     content?: SortOrder
     image?: SortOrder
-    category?: SortOrder
     published?: SortOrder
+    color?: SortOrder
   }
 
   export type PostSumOrderByAggregateInput = {

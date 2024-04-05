@@ -39,16 +39,6 @@ app.use(morganMiddleware);
 
 app.use(bodyParser.urlencoded({limit: '5000mb', extended: true, parameterLimit: 100000000000}));
 
-app.get('/', async (req, res) => {
-    let pagesArray: any = []
-
-    await getPages().then((pages: any) => {
-        pagesArray = pages.filter((page: any) => page.published)
-    })
-
-    res.render('pages/index', { posts: pagesArray, slideTime: 5000 });
-});
-
 app.use('', router)
 
 io.on("connection", (socket) => {

@@ -128,8 +128,8 @@ exports.Prisma.PostScalarFieldEnum = {
   title: 'title',
   content: 'content',
   image: 'image',
-  category: 'category',
-  published: 'published'
+  published: 'published',
+  color: 'color'
 };
 
 exports.Prisma.AbsentScalarFieldEnum = {

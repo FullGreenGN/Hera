@@ -33,7 +33,8 @@ router.post("/new", upload.single("file"), (req, res) => {
                         title: req.body.name,
                         content: req.body.description,
                         image: imageName,
-                        published: true
+                        published: true,
+                        color: req.body.color
                     }
                 }).catch((error) => {
                     logger.error(error)

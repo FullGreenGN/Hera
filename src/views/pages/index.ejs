@@ -15,8 +15,8 @@
                             <figure class="relative max-w transition-all duration-300 cursor-pointer">
                                 <img class="h-auto w-auto self-center transition duration-700" src="/uploads/<%= post.image %>" alt="image description">
                                 <figcaption class="absolute px-4 text-lg text-white bottom-6">
-                                    <h1 class="text-2xl font-bold"><%= post.title%></h1>
-                                    <p class="text-sm"><%= post.description %></p>
+                                    <h1 class="text-2xl font-bold <%= post.color %>"><%= post.title%></h1>
+                                    <p class="text-sm <%= post.color %>"><%= post.description %></p>
                                 </figcaption>
                             </figure>
                         </div>
