@@ -1,7 +1,7 @@
 import { getPages, getPagesEnabled, getPagesNumber } from '../../services/pages.service'
 import { Router } from 'express'
 import variables from '../../config'
-import { getUsers } from '../../services/auth.service'
+import { deleteUser, getUsers } from '../../services/auth.service'
 
 const router = Router()
 

@@ -14,7 +14,7 @@
     <%- include('../../partials/modals/newPage'); %>
     <%- include('../../partials/alerts/success'); %>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4 transition-all duration-300">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 transition-all duration-300">
         <% if(users) { %>
             <% users.forEach(user => { %>
                 <%- include('../../partials/users/card', {user: user}); %>
@@ -34,5 +34,34 @@
 </body>
 
 <%- include('../../partials/js/admin'); %>
+
+<script>
+    const deleteLink = document.getElementById("delete-button")
+
+    deleteLink.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default behavior of anchor element
+
+        const idToDelete = this.getAttribute("data-id");
+        console.log(idToDelete); // 1
+
+        // Perform the DELETE request using Fetch API
+        fetch(`/api/v1/users/delete/${idToDelete}`, {
+            method: 'POST',
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(data => {
+                console.log(data); // 'ok'
+                // Optionally, you can redirect the user or update the UI as needed
+            })
+            .catch(error => {
+                console.error('There was a problem with your fetch operation:', error);
+            });
+    });
+</script>
 
 </html>

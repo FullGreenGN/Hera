@@ -197,3 +197,54 @@
 [[32minfo[39m] - 10-04-2024 02:01:21 AM: GET /admin/users 200 23339 - 14.729 ms
 [[32minfo[39m] - 10-04-2024 02:01:21 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.372 ms
 [[32minfo[39m] - 10-04-2024 02:07:24 AM: GET /admin/users 200 22993 - 15.511 ms
+[[32minfo[39m] - 10-04-2024 02:09:33 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:10:33 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:13:27 AM: GET /admin/users 200 24116 - 36.659 ms
+[[32minfo[39m] - 10-04-2024 02:14:15 AM: GET /admin/users 200 22539 - 9.841 ms
+[[32minfo[39m] - 10-04-2024 02:14:28 AM: GET /admin/users 200 24085 - 105.713 ms
+[[32minfo[39m] - 10-04-2024 02:14:37 AM: GET /admin/users 200 24003 - 6.682 ms
+[[32minfo[39m] - 10-04-2024 02:14:55 AM: GET /admin/users 200 24003 - 8.909 ms
+[[32minfo[39m] - 10-04-2024 02:15:33 AM: GET /admin/users 200 24003 - 10.222 ms
+[[32minfo[39m] - 10-04-2024 02:15:50 AM: GET /admin/users 200 23639 - 10.035 ms
+[[32minfo[39m] - 10-04-2024 02:16:15 AM: GET /admin/users 200 23767 - 10.508 ms
+[[32minfo[39m] - 10-04-2024 02:16:33 AM: GET /admin/users 200 23910 - 5.300 ms
+[[32minfo[39m] - 10-04-2024 02:16:44 AM: GET /admin/users 200 23900 - 12.022 ms
+[[32minfo[39m] - 10-04-2024 02:17:12 AM: GET /admin/users 200 23839 - 4.339 ms
+[[32minfo[39m] - 10-04-2024 02:17:27 AM: GET /admin/users 200 23840 - 4.026 ms
+[[32minfo[39m] - 10-04-2024 02:17:28 AM: GET /admin/users 304 - - 12.669 ms
+[[32minfo[39m] - 10-04-2024 02:17:28 AM: GET /admin/users 304 - - 10.936 ms
+[[32minfo[39m] - 10-04-2024 02:17:28 AM: GET /admin/users 304 - - 11.573 ms
+[[32minfo[39m] - 10-04-2024 02:17:53 AM: GET /admin/users 200 23838 - 6.323 ms
+[[32minfo[39m] - 10-04-2024 02:17:55 AM: POST /api/v1/users/delete/1 404 161 - 3.070 ms
+[[32minfo[39m] - 10-04-2024 02:17:56 AM: GET /admin/users 304 - - 10.662 ms
+[[32minfo[39m] - 10-04-2024 02:18:01 AM: POST /api/v1/users/delete/1 404 161 - 0.714 ms
+[[32minfo[39m] - 10-04-2024 02:18:01 AM: POST /api/v1/users/delete/1 404 161 - 0.566 ms
+[[32minfo[39m] - 10-04-2024 02:18:25 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:18:26 AM: GET /admin/users 304 - - 22.593 ms
+[[32minfo[39m] - 10-04-2024 02:18:27 AM: POST /api/v1/users/delete/1 404 161 - 4.815 ms
+[[32minfo[39m] - 10-04-2024 02:18:50 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:19:45 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:19:49 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:19:57 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:19:59 AM: GET /admin/users 304 - - 20.628 ms
+[[32minfo[39m] - 10-04-2024 02:20:03 AM: GET / 304 - - 6.495 ms
+[[32minfo[39m] - 10-04-2024 02:20:05 AM: GET /admin 304 - - 9.789 ms
+[[32minfo[39m] - 10-04-2024 02:20:37 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:20:38 AM: GET /api/v1/users 200 137 - 58.093 ms
+[[32minfo[39m] - 10-04-2024 02:20:41 AM: GET /admin/users 304 - - 25.147 ms
+[[32minfo[39m] - 10-04-2024 02:21:14 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:21:18 AM: GET /admin/users 304 - - 116.220 ms
+[[32minfo[39m] - 10-04-2024 02:23:36 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:23:39 AM: GET /admin/users 304 - - 27.305 ms
+[[32minfo[39m] - 10-04-2024 02:24:25 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:24:27 AM: GET /admin/users 304 - - 24.089 ms
+[[32minfo[39m] - 10-04-2024 02:25:21 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:27:43 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:27:43 AM: GET /admin/users 200 23876 - 13.503 ms
+[[32minfo[39m] - 10-04-2024 02:27:47 AM: POST /api/v1/users/delete/1 301 46 - 19.401 ms
+[[32minfo[39m] - 10-04-2024 02:27:47 AM: GET /admin/users 200 21185 - 3.472 ms
+[[32minfo[39m] - 10-04-2024 02:28:11 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:28:11 AM: GET /admin/users 304 - - 110.761 ms
+[[32minfo[39m] - 10-04-2024 02:28:48 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:28:55 AM: Database connected
+[[32minfo[39m] - 10-04-2024 02:29:03 AM: GET /admin/users 304 - - 16.911 ms

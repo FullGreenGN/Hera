@@ -35,10 +35,16 @@ export async function getUsers() {
     return prisma.user.findMany()
 }
 
-export async function deleteUser(email: string) {
+export async function deleteUser(id: string) {
+    // check if user > 1
+    const users = await prisma.user.findMany()
+    if (users.length <= 1) {
+        return Promise.reject('Cannot delete the last user')
+    }
+
     return prisma.user.delete({
         where: {
-            email: email
+            id: parseInt(id)
         }
     })
 }

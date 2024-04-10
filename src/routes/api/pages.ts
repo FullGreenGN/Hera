@@ -28,8 +28,6 @@ router.post("/new", upload.single("file"), (req, res) => {
             fs.rename(tempPath, targetPath, err => {
                 if (err) return handleError(err, res);
 
-                console.log(req.body)
-
                 prisma.post.create({
                     data: {
                         title: req.body.name,
