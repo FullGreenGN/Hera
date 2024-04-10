@@ -28,7 +28,17 @@ const logger = createLogger({
     transports: [
         new transports.Console(),
         new transports.File({
-            filename: 'app.log'
+            filename: 'app.log',
+            format: format.combine(
+                format.prettyPrint(),
+                format.uncolorize(),
+                format.timestamp({
+                    format: 'DD-MM-YYYY hh:mm:ss A'
+                }),
+                format.printf(nfo => {
+                    return `[${nfo.level}] - ${nfo.timestamp}: ${nfo.message}`;
+                })
+            )
         })
     ],
 });
