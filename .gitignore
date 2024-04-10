@@ -7,5 +7,5 @@ node_modules
 ._*
 
 app.log
-prisma/dev.db
-prisma/migrations/
+/prisma/dev.db
+/prisma/migrations/**/
