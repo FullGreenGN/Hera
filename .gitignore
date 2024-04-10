@@ -5,3 +5,7 @@ node_modules
 /src/config/index.ts
 
 ._*
+
+app.log
+prisma/dev.db
+prisma/migrations
