@@ -8,4 +8,4 @@ node_modules
 
 app.log
 prisma/dev.db
-prisma/migrations
+prisma/migrations/
