@@ -17,6 +17,8 @@ model User {
   email String  @unique
   name  String?
   password String
+  enabled Boolean @default(true)
+  lastLogin DateTime @default(now())
 }
 
 model Post {

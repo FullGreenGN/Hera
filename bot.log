@@ -106,3 +106,93 @@
 [[32minfo[39m] - 05-04-2024 02:38:32 PM: GET /admin 200 22998 - 35.388 ms
 [[32minfo[39m] - 05-04-2024 02:38:48 PM: POST /api/v1/pages/new 200 52 - 16.612 ms
 [[32minfo[39m] - 05-04-2024 02:38:53 PM: GET / 200 8355 - 6.304 ms
+[[32minfo[39m] - 08-04-2024 11:58:22 PM: Database connected
+[[32minfo[39m] - 09-04-2024 01:17:42 PM: GET / 304 - - 116.778 ms
+[[32minfo[39m] - 09-04-2024 01:17:42 PM: GET /favicon.ico 404 150 - 1.478 ms
+[[32minfo[39m] - 09-04-2024 01:17:45 PM: GET / 304 - - 8.583 ms
+[[32minfo[39m] - 09-04-2024 01:17:46 PM: GET /admin 200 22998 - 116.143 ms
+[[32minfo[39m] - 09-04-2024 03:08:28 PM: Database connected
+[[32minfo[39m] - 09-04-2024 03:10:18 PM: GET /admin 200 22998 - 125.983 ms
+[[32minfo[39m] - 09-04-2024 03:53:05 PM: Database connected
+[[32minfo[39m] - 09-04-2024 03:56:05 PM: Database connected
+[[32minfo[39m] - 09-04-2024 03:56:07 PM: GET /admin 304 - - 111.766 ms
+[[32minfo[39m] - 09-04-2024 03:56:10 PM: GET /admin/users 200 20984 - 10.540 ms
+[[32minfo[39m] - 09-04-2024 03:56:40 PM: GET /admin/users 200 21101 - 8.405 ms
+[[32minfo[39m] - 09-04-2024 03:56:40 PM: GET /admin/users 304 - - 6.777 ms
+[[32minfo[39m] - 09-04-2024 03:58:45 PM: GET /admin/users 200 21103 - 7.864 ms
+[[32minfo[39m] - 09-04-2024 03:59:00 PM: GET /admin/users 304 - - 2.536 ms
+[[32minfo[39m] - 09-04-2024 03:59:00 PM: GET /admin/users 304 - - 8.416 ms
+[[32minfo[39m] - 09-04-2024 03:59:26 PM: GET /admin/users 304 - - 5.161 ms
+[[32minfo[39m] - 09-04-2024 03:59:26 PM: GET /admin/users 304 - - 8.660 ms
+[[32minfo[39m] - 09-04-2024 03:59:27 PM: GET /admin/users 304 - - 7.525 ms
+[[32minfo[39m] - 09-04-2024 03:59:33 PM: GET /admin/users 304 - - 102.823 ms
+[[32minfo[39m] - 09-04-2024 04:00:02 PM: GET /admin/users 200 21092 - 5.825 ms
+[[32minfo[39m] - 09-04-2024 04:00:53 PM: GET /admin 200 22987 - 12.381 ms
+[[32minfo[39m] - 09-04-2024 04:00:56 PM: GET /admin 304 - - 7.660 ms
+[[32minfo[39m] - 09-04-2024 04:00:57 PM: GET /admin/users 304 - - 5.786 ms
+[[32minfo[39m] - 10-04-2024 01:34:20 AM: GET /admin/users 200 20022 - 104.739 ms
+[[32minfo[39m] - 10-04-2024 01:34:29 AM: GET /admin/users 200 20366 - 98.433 ms
+[[32minfo[39m] - 10-04-2024 01:34:41 AM: GET /admin/users 200 21580 - 4.425 ms
+[[32minfo[39m] - 10-04-2024 01:35:10 AM: GET /admin/users 200 20010 - 5.200 ms
+[[32minfo[39m] - 10-04-2024 01:35:20 AM: GET /admin/users 304 - - 10.808 ms
+[[32minfo[39m] - 10-04-2024 01:35:35 AM: GET /admin/users 200 21572 - 7.095 ms
+[[32minfo[39m] - 10-04-2024 01:35:51 AM: GET /admin/users 200 20139 - 4.914 ms
+[[32minfo[39m] - 10-04-2024 01:36:06 AM: GET /admin/users 200 20250 - 3.818 ms
+[[32minfo[39m] - 10-04-2024 01:36:30 AM: GET /admin/users 200 20289 - 5.364 ms
+[[32minfo[39m] - 10-04-2024 01:36:38 AM: GET /admin/users 200 20289 - 3.152 ms
+[[32minfo[39m] - 10-04-2024 01:37:30 AM: GET /admin/users 200 20308 - 105.966 ms
+[[32minfo[39m] - 10-04-2024 01:37:31 AM: GET /admin/users 304 - - 9.645 ms
+[[32minfo[39m] - 10-04-2024 01:37:31 AM: GET /admin/users 304 - - 6.615 ms
+[[32minfo[39m] - 10-04-2024 01:37:50 AM: GET /admin/users 200 20281 - 1.916 ms
+[[32minfo[39m] - 10-04-2024 01:39:42 AM: GET /admin/users 200 23112 - 106.227 ms
+[[32minfo[39m] - 10-04-2024 01:39:42 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 1.015 ms
+[[32minfo[39m] - 10-04-2024 01:39:51 AM: GET /admin/users 200 22883 - 103.974 ms
+[[32minfo[39m] - 10-04-2024 01:39:51 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.268 ms
+[[32minfo[39m] - 10-04-2024 01:40:02 AM: GET /admin/users 200 23001 - 5.162 ms
+[[32minfo[39m] - 10-04-2024 01:40:02 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.921 ms
+[[32minfo[39m] - 10-04-2024 01:40:16 AM: GET /admin/users 200 25947 - 5.528 ms
+[[32minfo[39m] - 10-04-2024 01:40:16 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.349 ms
+[[32minfo[39m] - 10-04-2024 01:40:16 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.400 ms
+[[32minfo[39m] - 10-04-2024 01:40:26 AM: GET /admin/users 200 51322 - 12.873 ms
+[[32minfo[39m] - 10-04-2024 01:40:26 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.350 ms
+[[32minfo[39m] - 10-04-2024 01:40:26 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 1.145 ms
+[[32minfo[39m] - 10-04-2024 01:41:35 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:41:37 AM: GET /admin/users 500 1855 - 113.392 ms
+[[32minfo[39m] - 10-04-2024 01:42:34 AM: GET /admin/users 200 20200 - 113.007 ms
+[[32minfo[39m] - 10-04-2024 01:42:53 AM: GET /admin/users 304 - - 107.091 ms
+[[32minfo[39m] - 10-04-2024 01:43:30 AM: GET / 200 8355 - 103.602 ms
+[[32minfo[39m] - 10-04-2024 01:44:04 AM: GET /admin/users 200 23046 - 10.662 ms
+[[32minfo[39m] - 10-04-2024 01:44:04 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.801 ms
+[[32minfo[39m] - 10-04-2024 01:44:11 AM: GET /admin/users 200 23045 - 9.268 ms
+[[32minfo[39m] - 10-04-2024 01:44:11 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.301 ms
+[[32minfo[39m] - 10-04-2024 01:44:19 AM: GET /admin/users 200 22959 - 7.203 ms
+[[32minfo[39m] - 10-04-2024 01:44:19 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.249 ms
+[[32minfo[39m] - 10-04-2024 01:45:45 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:45:51 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:45:55 AM: GET /admin/users 200 23041 - 114.749 ms
+[[32minfo[39m] - 10-04-2024 01:45:55 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 1.649 ms
+[[32minfo[39m] - 10-04-2024 01:47:38 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:47:40 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:47:55 AM: GET /admin/users 200 23105 - 120.602 ms
+[[32minfo[39m] - 10-04-2024 01:47:55 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.607 ms
+[[32minfo[39m] - 10-04-2024 01:53:54 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:53:57 AM: GET /admin/users 304 - - 117.443 ms
+[[32minfo[39m] - 10-04-2024 01:53:57 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.980 ms
+[[32minfo[39m] - 10-04-2024 01:53:58 AM: GET /admin/users 304 - - 15.941 ms
+[[32minfo[39m] - 10-04-2024 01:53:58 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.935 ms
+[[32minfo[39m] - 10-04-2024 01:54:31 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:54:31 AM: GET /admin/users 200 23059 - 14.191 ms
+[[32minfo[39m] - 10-04-2024 01:54:31 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 1.093 ms
+[[32minfo[39m] - 10-04-2024 01:54:42 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:55:11 AM: Database connected
+[[32minfo[39m] - 10-04-2024 01:55:11 AM: GET /admin/users 200 23053 - 13.922 ms
+[[32minfo[39m] - 10-04-2024 01:55:11 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 1.838 ms
+[[32minfo[39m] - 10-04-2024 01:57:12 AM: GET /admin/users 500 2228 - 19.204 ms
+[[32minfo[39m] - 10-04-2024 01:58:17 AM: GET /admin/users 200 23123 - 12.705 ms
+[[32minfo[39m] - 10-04-2024 01:58:17 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.268 ms
+[[32minfo[39m] - 10-04-2024 02:00:56 AM: GET /admin/users 200 23339 - 12.324 ms
+[[32minfo[39m] - 10-04-2024 02:00:56 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 2.231 ms
+[[32minfo[39m] - 10-04-2024 02:01:06 AM: GET /admin/users 200 23329 - 7.774 ms
+[[32minfo[39m] - 10-04-2024 02:01:06 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.296 ms
+[[32minfo[39m] - 10-04-2024 02:01:21 AM: GET /admin/users 200 23339 - 14.729 ms
+[[32minfo[39m] - 10-04-2024 02:01:21 AM: GET /docs/images/people/profile-picture-3.jpg 404 179 - 0.372 ms

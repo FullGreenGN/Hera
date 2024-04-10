@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head'); %>
+</head>
+<body class="dark:bg-gray-900 w-screen h-screen">
+<%- include('../../partials/sidebar', {title: title, active: active}); %>
+
+<main class="p-4 md:ml-64 h-auto pt-10 bg-white dark:bg-gray-900">
+    <div class="mb-4">
+        <%- include('../../partials/breadcrumb'); %>
+    </div>
+
+    <%- include('../../partials/modals/newPage'); %>
+    <%- include('../../partials/alerts/success'); %>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4 transition-all duration-300">
+        <% if(users) { %>
+            <% users.forEach(user => { %>
+                <%- include('../../partials/users/card', {user: user}); %>
+            <% }); %>
+        <% } else { %>
+            <div class="col-span-4">
+            <div class="bg-white dark:bg-gray-800 shadow rounded-lg p-4">
+                <p class="text-gray-500 dark:text-gray-400 text-center">No users found</p>
+            </div>
+        <%}%>
+    </div>
+
+</main>
+<footer class="sticky top-[100vh]">
+    <%- include('../../partials/footer'); %>
+</footer>
+</body>
+
+<%- include('../../partials/js/admin'); %>
+
+</html>
