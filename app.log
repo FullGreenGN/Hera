@@ -19,3 +19,71 @@
 [info] - 10-04-2024 02:38:02 AM: GET /admin/users 304 - - 10.460 ms
 [info] - 10-04-2024 02:38:04 AM: GET /admin/pages/edit 200 31553 - 10.009 ms
 [info] - 10-04-2024 02:38:04 AM: GET /admin/users 304 - - 7.661 ms
+[info] - 10-04-2024 04:00:58 PM: GET /admin/users 304 - - 115.432 ms
+[info] - 10-04-2024 04:00:58 PM: GET /admin/users 304 - - 10.670 ms
+[info] - 10-04-2024 08:22:00 PM: GET /admin/users 304 - - 106.366 ms
+[info] - 10-04-2024 08:22:01 PM: GET /admin/users 304 - - 12.100 ms
+[info] - 10-04-2024 08:22:02 PM: GET /admin/users 304 - - 9.603 ms
+[info] - 10-04-2024 08:22:02 PM: GET /admin/users 304 - - 7.313 ms
+[info] - 10-04-2024 08:22:28 PM: GET /admin/users 304 - - 10.237 ms
+[info] - 10-04-2024 08:22:29 PM: GET /admin/users 304 - - 4.249 ms
+[info] - 10-04-2024 08:22:29 PM: GET /admin/users 304 - - 4.078 ms
+[info] - 10-04-2024 08:23:06 PM: GET /admin/users 304 - - 107.258 ms
+[info] - 10-04-2024 08:23:53 PM: GET /admin/users 200 22309 - 108.090 ms
+[info] - 10-04-2024 08:24:20 PM: GET /admin/users 200 22348 - 9.001 ms
+[info] - 10-04-2024 08:27:24 PM: GET /admin/users 200 22401 - 105.137 ms
+[info] - 10-04-2024 08:27:34 PM: GET /admin/users 200 22476 - 4.290 ms
+[info] - 10-04-2024 08:27:58 PM: GET /admin/users 200 22433 - 6.831 ms
+[info] - 10-04-2024 08:28:12 PM: GET /admin/users 200 22269 - 7.618 ms
+[info] - 10-04-2024 08:28:39 PM: GET /admin/users 200 22444 - 9.228 ms
+[info] - 10-04-2024 08:57:57 PM: GET /admin/users 200 21717 - 108.780 ms
+[info] - 10-04-2024 08:58:02 PM: GET /admin/users 200 21711 - 2.383 ms
+[info] - 24-04-2024 08:19:06 AM: Database connected
+[info] - 24-04-2024 08:19:28 AM: GET / 200 8355 - 14.406 ms
+[info] - 24-04-2024 08:19:30 AM: GET /favicon.ico 404 150 - 0.986 ms
+[info] - 24-04-2024 08:19:34 AM: GET /admin 200 22443 - 9.647 ms
+[info] - 24-04-2024 08:55:00 AM: Database connected
+[info] - 24-04-2024 08:55:01 AM: GET /admin/users 200 21717 - 20.467 ms
+[info] - 24-04-2024 08:55:06 AM: GET /admin/pages/edit 200 31553 - 11.202 ms
+[info] - 24-04-2024 08:56:56 AM: GET /admin/users 304 - - 10.045 ms
+[info] - 24-04-2024 08:56:58 AM: GET /admin/pages/edit 304 - - 38.404 ms
+[info] - 24-04-2024 09:27:15 AM: GET /admin/users 500 2411 - 10.306 ms
+[info] - 24-04-2024 09:27:33 AM: GET /admin/users 500 2371 - 4.453 ms
+[info] - 24-04-2024 09:27:34 AM: GET /admin/users 500 2371 - 3.421 ms
+[info] - 24-04-2024 09:27:46 AM: GET /admin/users 200 26594 - 7.077 ms
+[info] - 24-04-2024 09:31:41 AM: Database connected
+[info] - 24-04-2024 10:18:19 AM: Database connected
+[info] - 24-04-2024 10:18:21 AM: GET /admin/pages/edit 200 36430 - 118.260 ms
+[info] - 24-04-2024 10:19:46 AM: Database connected
+[info] - 24-04-2024 10:21:31 AM: Database connected
+[info] - 24-04-2024 10:23:10 AM: GET /admin/pages/edit 200 36444 - 116.496 ms
+[info] - 24-04-2024 10:24:27 AM: Database connected
+[info] - 24-04-2024 10:24:28 AM: GET /admin/pages/edit 200 36429 - 20.450 ms
+[info] - 24-04-2024 10:24:30 AM: DELETE /api/v1/pages/delete/9 200 26 - 106.682 ms
+[info] - 24-04-2024 10:24:31 AM: GET /admin/pages/edit 200 34526 - 15.100 ms
+[info] - 24-04-2024 10:25:41 AM: GET /admin/pages/edit 200 34526 - 108.711 ms
+[info] - 24-04-2024 10:25:45 AM: GET / 200 7340 - 3.332 ms
+[info] - 24-04-2024 10:25:59 AM: GET /admin 200 22435 - 9.095 ms
+[info] - 24-04-2024 10:26:43 AM: GET /admin/users 200 26593 - 8.331 ms
+[info] - 24-04-2024 10:26:46 AM: GET /admin/pages/edit 304 - - 8.115 ms
+[info] - 05-05-2024 05:51:32 PM: Database connected
+[info] - 05-05-2024 05:51:55 PM: GET / 200 7340 - 12.684 ms
+[info] - 05-05-2024 05:54:51 PM: Database connected
+[info] - 05-05-2024 05:56:42 PM: GET / 200 7393 - 110.077 ms
+[info] - 05-05-2024 05:57:30 PM: GET / 304 - - 103.613 ms
+[info] - 05-05-2024 05:57:30 PM: GET /admin 200 22435 - 109.218 ms
+[info] - 05-05-2024 05:57:34 PM: GET /admin/pages/edit 200 34526 - 108.088 ms
+[info] - 05-05-2024 05:57:38 PM: GET /admin 304 - - 5.956 ms
+[info] - 05-05-2024 05:57:42 PM: GET /admin/users 200 26593 - 108.638 ms
+[info] - 05-05-2024 06:01:57 PM: Database connected
+[info] - 05-05-2024 06:02:10 PM: GET / 200 7389 - 109.111 ms
+[info] - 05-05-2024 06:02:26 PM: GET / 304 - - 102.992 ms
+[info] - 05-05-2024 06:02:26 PM: GET /admin 304 - - 109.219 ms
+[info] - 05-05-2024 06:02:38 PM: Database connected
+[info] - 05-05-2024 06:02:47 PM: GET / 200 7393 - 108.903 ms
+[info] - 05-05-2024 06:04:48 PM: GET / 200 7393 - 972.605 ms
+[info] - 05-05-2024 06:06:49 PM: GET / 200 7393 - 971.030 ms
+[info] - 05-05-2024 06:08:24 PM: GET /admin 200 22449 - 108.365 ms
+[info] - 05-05-2024 06:08:49 PM: GET / 200 7393 - 102.829 ms
+[info] - 05-05-2024 06:09:13 PM: GET /admin/pages/edit 200 34547 - 109.357 ms
+[info] - 05-05-2024 06:10:04 PM: GET /admin/pages/edit 200 34568 - 108.165 ms

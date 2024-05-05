@@ -1,3 +1,5 @@
+<%- include('./modals/newPage'); %>
+
 <div class="flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800 dark:bg-black">
     <div class="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r dark:border-gray-700">
         <div class="flex items-center justify-center h-14 border-b dark:border-gray-700 dark:bg-gray-900 dark:text-white">
@@ -50,12 +52,12 @@
                         <i class="w-5 h-5 fa-solid fa-pen-to-square"></i>
                   </span>
                         <span class="ml-2 text-sm tracking-wide truncate">Edit Pages</span>
-                        <span class="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full">15</span>
+                        <span class="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full"><%- pagesNumber %></span>
                     </a>
                 </li>
-                <li class="px-5">
+                <!--<li class="px-5">
                     <div class="flex flex-row items-center h-8">
-                        <div class="text-sm font-light tracking-wide">Pages</div>
+                        <div class="text-sm font-light tracking-wide">Users</div>
                     </div>
                 </li>
                 <li>
@@ -69,13 +71,13 @@
                             </span>
                             <span class="ml-2 text-sm tracking-wide truncate">Manage Users</span>
                         </a>
-                </li>
+                </li>-->
                 <li class="px-5">
                     <div class="flex flex-row items-center h-8">
                         <div class="text-sm font-light tracking-wide">Settings</div>
                     </div>
                 </li>
-                <li>
+                <!--<li>
                     <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-300 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                   <span class="inline-flex justify-center items-center ml-4">
                         <i class="w-5 h-5 fa-solid fa-user"></i>
@@ -90,7 +92,7 @@
                   </span>
                         <span class="ml-2 text-sm tracking-wide truncate">Settings</span>
                     </a>
-                </li>
+                </li>-->
                 <li>
                     <a id="theme-toggle" href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                           <span class="inline-flex justify-center items-center ml-4">
@@ -102,14 +104,14 @@
                         </span>
                     </a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-300 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                   <span class="inline-flex justify-center items-center ml-4">
                         <i class="w-5 h-5 fa-solid fa-sign-out"></i>
                   </span>
                         <span class="ml-2 text-sm tracking-wide truncate">Logout</span>
                     </a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>

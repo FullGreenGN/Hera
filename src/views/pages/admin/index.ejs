@@ -4,14 +4,13 @@
     <%- include('../../partials/head'); %>
 </head>
 <body class="dark:bg-gray-900 bg-white">
-<%- include('../../partials/sidebar', {title: title}); %>
+<%- include('../../partials/sidebar', {title: title, pagesNumber: pagesNumber}); %>
 
     <main class="p-4 md:ml-64 h-auto pt-10">
         <div class="mb-4">
             <%- include('../../partials/breadcrumb', {breadcrumbs: breadcrumbs}); %>
         </div>
 
-        <%- include('../../partials/modals/newPage'); %>
         <%- include('../../partials/alerts/success'); %>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4 transition-all duration-300">

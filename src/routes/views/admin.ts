@@ -23,6 +23,7 @@ router.get('/', async (req: any, res: any) => {
         messageType: "success",
         pagesAvailable: pages,
         pagesEnabled: pageEnabled,
+        pagesNumber: pages,
         active: 'home',
         breadcrumbs: [
             {
@@ -57,6 +58,12 @@ router.get('/pages/edit', async (req: any, res: any) => {
         pagesArray = pages
     })
 
+    let pages = 0
+
+    await getPagesNumber().then((number: any) => {
+        pages = number
+    })
+
     res.render('pages/admin/editPages', {
         title: 'Admin Page',
         message: "",
@@ -64,6 +71,7 @@ router.get('/pages/edit', async (req: any, res: any) => {
         pagesAvailable: pagesNum,
         pagesEnabled: pageEnabled,
         posts: pagesArray,
+        pagesNumber: pages,
         active: 'editpages',
         breadcrumbs: [
             {
@@ -105,12 +113,19 @@ router.get('/users/', async (req: any, res: any) => {
         user.lastLogin = formatDate(new Date(user.lastLogin))
     })
 
+    let pages = 0
+
+    await getPagesNumber().then((number: any) => {
+        pages = number
+    })
+
     res.render('pages/admin/users', {
         title: 'Hera',
         message: "",
         messageType: "success",
         active: 'users',
         users: users,
+        pagesNumber: pages,
         breadcrumbs: [
             {
                 name: 'Admin',
