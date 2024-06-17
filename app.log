@@ -87,3 +87,72 @@
 [info] - 05-05-2024 06:08:49 PM: GET / 200 7393 - 102.829 ms
 [info] - 05-05-2024 06:09:13 PM: GET /admin/pages/edit 200 34547 - 109.357 ms
 [info] - 05-05-2024 06:10:04 PM: GET /admin/pages/edit 200 34568 - 108.165 ms
+[info] - 05-05-2024 06:10:50 PM: GET / 200 7393 - 101.596 ms
+[info] - 17-06-2024 09:45:26 PM: Database connected
+[info] - 17-06-2024 09:45:59 PM: Database connected
+[info] - 17-06-2024 09:45:59 PM: Default settings created
+[info] - 17-06-2024 09:46:03 PM: GET / 200 4326 - 114.838 ms
+[info] - 17-06-2024 09:46:03 PM: GET /_next/static/chunks/app-pages-internals.js 404 181 - 0.820 ms
+[info] - 17-06-2024 09:46:03 PM: GET /_next/static/chunks/app/%5Blocale%5D/error.js 404 184 - 2.791 ms
+[info] - 17-06-2024 09:46:03 PM: GET /_next/static/chunks/app/%5Blocale%5D/not-found.js 404 188 - 3.260 ms
+[info] - 17-06-2024 09:46:03 PM: GET /_next/static/chunks/app/%5Blocale%5D/(home)/page.js 404 190 - 3.486 ms
+[info] - 17-06-2024 09:46:07 PM: GET / 304 - - 6.755 ms
+[info] - 17-06-2024 09:46:08 PM: GET /dashboard 404 148 - 0.505 ms
+[info] - 17-06-2024 09:46:30 PM: GET /admin 200 22456 - 117.611 ms
+[info] - 17-06-2024 09:46:42 PM: POST /api/v1/pages/new 200 52 - 13.782 ms
+[info] - 17-06-2024 09:46:48 PM: GET / 304 - - 106.290 ms
+[info] - 17-06-2024 09:48:24 PM: GET /fr/dashboard 404 151 - 0.279 ms
+[info] - 17-06-2024 09:48:48 PM: GET / 200 4326 - 103.816 ms
+[info] - 17-06-2024 09:51:42 PM: Database connected
+[info] - 17-06-2024 09:52:20 PM: Database connected
+[info] - 17-06-2024 09:52:28 PM: GET / 304 - - 109.060 ms
+[info] - 17-06-2024 09:52:35 PM: GET / 200 4326 - 4.536 ms
+[info] - 17-06-2024 09:52:47 PM: GET /admin 304 - - 114.310 ms
+[info] - 17-06-2024 09:53:13 PM: POST /api/v1/pages/new 200 52 - 15.585 ms
+[info] - 17-06-2024 09:53:29 PM: GET / 304 - - 105.011 ms
+[info] - 17-06-2024 09:53:34 PM: GET /fr/auth/signup 404 153 - 1.008 ms
+[info] - 17-06-2024 09:53:37 PM: GET / 200 4326 - 105.364 ms
+[info] - 17-06-2024 09:54:10 PM: Database connected
+[info] - 17-06-2024 09:54:15 PM: GET /api/v1/pages/new 404 155 - 3.590 ms
+[info] - 17-06-2024 09:54:18 PM: GET / 304 - - 109.534 ms
+[info] - 17-06-2024 09:54:29 PM: Database connected
+[info] - 17-06-2024 09:54:31 PM: GET / 200 4326 - 6.065 ms
+[info] - 17-06-2024 09:54:35 PM: GET / 200 4326 - 4.712 ms
+[info] - 17-06-2024 09:55:07 PM: Database connected
+[info] - 17-06-2024 09:55:08 PM: GET / 304 - - 10.942 ms
+[info] - 17-06-2024 09:55:09 PM: GET /admin 200 22456 - 13.838 ms
+[info] - 17-06-2024 09:55:13 PM: GET /admin/pages/edit 200 30671 - 15.011 ms
+[info] - 17-06-2024 09:55:13 PM: GET /uploads/ 404 147 - 1.845 ms
+[info] - 17-06-2024 09:55:29 PM: GET / 200 4326 - 10.654 ms
+[info] - 17-06-2024 09:55:37 PM: GET / 304 - - 3.097 ms
+[info] - 17-06-2024 09:56:36 PM: GET / 200 4326 - 106.506 ms
+[info] - 17-06-2024 09:57:10 PM: Database connected
+[info] - 17-06-2024 09:57:13 PM: DELETE /api/v1/pages/delete/1 200 26 - 108.404 ms
+[info] - 17-06-2024 09:57:16 PM: DELETE /api/v1/pages/delete/1 200 26 - 4.147 ms
+[info] - 17-06-2024 09:57:21 PM: GET /admin/pages/edit 200 29076 - 123.383 ms
+[info] - 17-06-2024 09:57:30 PM: GET / 200 4326 - 106.410 ms
+[info] - 17-06-2024 09:57:34 PM: POST /api/v1/pages/new 200 52 - 16.784 ms
+[info] - 17-06-2024 09:57:37 PM: GET / 200 5393 - 104.379 ms
+[info] - 17-06-2024 09:57:38 PM: GET /admin 200 22456 - 42.661 ms
+[info] - 17-06-2024 09:57:41 PM: GET /admin/pages/edit 200 30789 - 14.732 ms
+[info] - 17-06-2024 09:57:44 PM: GET / 200 5393 - 5.572 ms
+[info] - 17-06-2024 09:58:35 PM: DELETE /api/v1/pages/delete/2 200 26 - 113.176 ms
+[info] - 17-06-2024 09:58:36 PM: GET / 200 4326 - 104.713 ms
+[info] - 17-06-2024 09:58:37 PM: GET /admin/pages/edit 200 29076 - 112.312 ms
+[info] - 17-06-2024 09:59:02 PM: Database connected
+[info] - 17-06-2024 09:59:03 PM: GET /admin/pages/edit 304 - - 110.060 ms
+[info] - 17-06-2024 09:59:11 PM: POST /api/v1/pages/new 302 56 - 15.236 ms
+[info] - 17-06-2024 09:59:11 PM: GET /admin 200 22456 - 100.158 ms
+[info] - 17-06-2024 09:59:14 PM: GET /admin/pages/edit 200 30790 - 15.999 ms
+[info] - 17-06-2024 09:59:18 PM: DELETE /api/v1/pages/delete/3 200 26 - 112.372 ms
+[info] - 17-06-2024 09:59:19 PM: DELETE /api/v1/pages/delete/3 200 26 - 2.448 ms
+[info] - 17-06-2024 09:59:20 PM: GET /admin/pages/edit 200 29076 - 11.062 ms
+[info] - 17-06-2024 09:59:37 PM: GET / 200 4326 - 4.801 ms
+[info] - 17-06-2024 09:59:44 PM: GET / 200 4326 - 5.402 ms
+[info] - 17-06-2024 10:00:14 PM: POST /api/v1/pages/new 200 64 - 4.976 ms
+[info] - 17-06-2024 10:00:22 PM: POST /api/v1/pages/new 302 56 - 8.789 ms
+[info] - 17-06-2024 10:00:22 PM: GET /admin 200 22456 - 101.013 ms
+[info] - 17-06-2024 10:00:23 PM: GET /admin/pages/edit 200 30832 - 10.971 ms
+[info] - 17-06-2024 10:00:24 PM: DELETE /api/v1/pages/delete/4 200 26 - 105.158 ms
+[info] - 17-06-2024 10:00:24 PM: GET /admin/pages/edit 200 29118 - 3.962 ms
+[info] - 17-06-2024 10:00:36 PM: GET / 200 4326 - 5.048 ms

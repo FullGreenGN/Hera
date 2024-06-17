@@ -1,23 +1,23 @@
-import { PrismaClient } from '../generated/client'
-
-const prisma = new PrismaClient()
+import { Post } from "../db"
 
 export async function getPagesNumber() {
-    return prisma.post.count()
+    return Post.count()
 }
 
 export async function getPagesEnabled() {
-    return prisma.post.findMany({
+    return Post.findAll({
         where: {
             published: true
         }
     }).then((pages) => {
+        console.log(pages.length)
         return pages.length
     })
 }
 
 export async function getPages() {
-    return prisma.post.findMany().then((pages) => {
+    return Post.findAll().then((pages) => {
+        console.log(pages.length)
         return pages
     })
 }

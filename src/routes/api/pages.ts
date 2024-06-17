@@ -4,10 +4,9 @@ import { randomUUID } from 'node:crypto'
 import path from 'node:path'
 import fs from 'fs'
 import logger from '../../lib/logger'
-import { PrismaClient } from '../../generated/client'
+import { Post } from '../../db'
 
 const router = Router()
-const prisma = new PrismaClient()
 
 const upload = multer({
     dest: "uploads/"
@@ -28,19 +27,17 @@ router.post("/new", upload.single("file"), (req, res) => {
             fs.rename(tempPath, targetPath, err => {
                 if (err) return handleError(err, res);
 
-                prisma.post.create({
-                    data: {
-                        title: req.body.name,
-                        content: req.body.description,
-                        image: imageName,
-                        published: true,
-                        color: req.body.color
-                    }
+                Post.create({
+                    title: req.body.name,
+                    content: req.body.description,
+                    image: imageName,
+                    published: true,
+                    color: req.body.color
                 }).catch((error) => {
                     logger.error(error)
                 })
 
-                res.send({ message: 'File uploaded!', messageType: 'success'})
+                res.redirect('/admin')
             });
         } else {
             fs.unlink(tempPath, err => {
@@ -54,7 +51,7 @@ router.post("/new", upload.single("file"), (req, res) => {
 
 
 router.delete('/delete/:id', (req, res) => {
-    prisma.post.delete({
+    Post.destroy({
         where: {
             id: parseInt(req.params.id)
         }
@@ -66,7 +63,7 @@ router.delete('/delete/:id', (req, res) => {
 })
 
 router.delete("/:id", (req, res) => {
-    prisma.post.delete({
+    Post.destroy({
         where: {
             id: parseInt(req.params.id)
         }

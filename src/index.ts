@@ -1,20 +1,17 @@
 import express, { Request, Response } from 'express'
-import connect from './db'
 import path from 'node:path'
 import morgan from 'morgan'
 import * as socketio from "socket.io";
 import bodyParser from 'body-parser'
 import router from './routes'
-import { getPages } from './services/pages.service'
 import variables from './config'
-import { PrismaClient } from './generated/client'
 import { createDefaultSettings } from './services/settings.service'
 import logger from './lib/logger'
 import * as http from 'http'
+import { connect, Settings } from './db';
 
 const app = express()
 const port = variables.PORT || 3000
-const prisma = new PrismaClient()
 
 const server = http.createServer(app);
 const io = new socketio.Server(server);
@@ -73,7 +70,7 @@ server.listen(port, () => {
 connect()
     .then(() => {
         logger.log('info', 'Database connected')
-        prisma.settings.findMany().then((settings) => {
+        Settings.findAll().then((settings) => {
             if (settings.length === 0) {
                 createDefaultSettings().then(() => {
                     logger.log('info', 'Default settings created')
@@ -82,6 +79,7 @@ connect()
                     process.exit(1)
                 })
             }
+            console.log(settings)
         })
     })
     .catch((e) => {

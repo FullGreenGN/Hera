@@ -8,6 +8,7 @@ router.get('/', async (req, res) => {
     let slideTime = 5000
 
     await getPages().then((pages: any) => {
+        console.log(pages.length)
         pagesArray = pages.filter((page: any) => page.published)
     })
 

@@ -1,9 +1,7 @@
-import { PrismaClient } from '../generated/client'
-
-const prisma = new PrismaClient()
+import { Settings } from "../db"
 
 export async function createDefaultSettings() {
-    return prisma.settings.create({
+    return Settings.create({
         data: {
             slideTime: 5000,
             showAbsent: true,
@@ -13,5 +11,5 @@ export async function createDefaultSettings() {
 }
 
 export async function getSlideTime() {
-    return
+    return 500
 }
